@@ -10,15 +10,17 @@
     --dark: #1f2937;
 }
 body{
+    font-family: 'Oswald', sans-serif; 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--background);
+    background: linear-gradient(rgb(47,150,163) ,rgb(48,63,143));
     color: #fff;
 }
 header{
     max-width: 800px;
     width: 100%;
+   
 
 }
 header h1{
@@ -40,4 +42,10 @@ header h1{
     color: var(--white);
     font-weight: lighter;
 
+}
+#input-submit{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
 }
