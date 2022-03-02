@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background: rgb(48,63,143);
+    --white: whitesmoke;
+    --dark: #1f2937;
+}
