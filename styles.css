@@ -16,3 +16,28 @@ body{
     background-color: var(--background);
     color: #fff;
 }
+header{
+    max-width: 800px;
+    width: 100%;
+
+}
+header h1{
+    color: var(--dark);
+    margin-bottom: 5px;
+  
+}
+#task-input{
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: lighter;
+
+}
